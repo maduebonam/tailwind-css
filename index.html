@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="space-x-5 p-3 items-center bg-green-950 shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center mx-4">
+            <button class="bg-pink-300 px-2 py-2 rounded">
+                <span class="text-1xl  text-black ml-2 font-[poppins] cursor-pointer leading-3 italic">
+                    <p class="text-center text-1xl">KINGSLEY<br><br> EGWU</p>
+                </span>
+            </button>
+            <span class="text-3xl text-white mr-4 cursor-pointer md:hidden block">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+        <ul
+            class="md:flex md:items-center text-white z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-2 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-7 my-2 md:my-0"><a href="#home" class="text-2xl hover:text-cyan-500 duration-500">Home</a>
+            </li>
+            <li class="mx-5 my-2 md:my-0"><a href="#project"
+                    class="text-2xl hover:text-cyan-500 duration-500">Projects</a>
+            </li>
+            <li class="mx-5 my-2 md:my-0"><a href="#contact" class="text-2xl hover:text-cyan-500 duration-500">Contact
+                </a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="h-100vh bg-[url(images/ball.jpg)] bg-cover bg-center mx-auto">
+
+        <div class="grid gap-6 items-start justify-center mb-8">
+
+            <div class="relative">
+                <div class="absolute inset-0 bg-pink-600 rounded-lg blur"></div>
+
+                <button
+                    class="relative space-x-5 mx-auto my-6 py-2 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                    <span class="flex items-center space-x-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600 -rotate-6" fill="none"
+                            viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                        </svg>
+                        <span class="pr-3 text-lg text-gray-100">STACK ENGINEER IN VIEW</span>
+                    </span>
+                    <span class="pl-3 text-lg text-indigo-400">@ Information Technology &rarr;</span>
+                </button>
+            </div>
+            <img src="images/pic.jpg" alt="" class="mx-auto w-44 h-44 rounded-full">
+            <p class="text-2xl font-bold text-center">Other Qualifications</p>
+            <ol>
+                <li class="text-1xl font-semibold py-1 italic text-center">Construction Project management(MSc).</li>
+                <li class="text-1xl font-semibold italic text-center">Building Engineer(BSc).</li>
+            </ol>
+            <button class="my-2 text-center mx-auto p-2 rounded-lg bg-black text-white">View More</button>
+        </div>
+    </section>
+
+    <section id="project" class="bg-black">
+        <p class="py-16 text-white font-bold text-3xl text-center">PROJECTS</p>
+        <div class="my-4 mx-4">
+            <div class="flex flex-col pb-12 md:flex-row md:pb-12 lg:flex-row lg:pb-12">
+                <img src="images/gym.jpg" alt="" class="w-full h-72 mx-auto md:ml-4 lg:ml-4">
+                <p class="text-white mx-auto text-center mt-5 text-1xl md:mx-4 lg:mx-4">Skyfit is a gym founded on the
+                    pursuit of
+                    self-improvement. Our
+                    gym is architecturally designed to
+                    give you the best atmosphere for a satisfactory workout and a beautiful view of the city of Lagos
+                    and waterfront.
+                    We make fitness fun, effective and simple. Our coaches lead the fitness industry when it comes to
+                    helping people get into the best shape of their lives and reaching their fitness goals safely.</p>
+            </div>
+            <div class="flex flex-col md:flex-row lg:flex-row">
+                <img src="images/tenis.jpg" alt="" class="w-10/12 h-72 mx-auto md:ml-4 lg:ml-4">
+                <p class="text-white text-1xl mx-auto mt-5 text-center md:mx-4 lg:mx-4">Tennis is a racket sport that is
+                    played either
+                    individually against a single opponent (singles) or
+                    between two teams of two players each (doubles). Each player uses a tennis racket strung with a cord
+                    to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court.
+                    <br>The object of the game is to manoeuvre the ball in such a way that the opponent is not able to
+                    play
+                    a valid return. The player unable to return the ball validly will not gain a point, while the
+                    opposite player will.
+                </p>
+            </div>
+            <div class="flex py-8 flex-col md:flex-row lg:flex-row ">
+                <div class="w-full h-80 mx-auto md:ml-16 lg:ml-16">
+                    <img src="images/client 3.jpg" alt="" class="pt-2  h-40 w-full md:h-44 md:w-96 lg:h-44 lg:w-96">
+                    <img src="images/const.jpg" alt="" class="py-2  h-44 w-full md:h-44 md:w-96 lg:h-44 lg:w-96">
+                </div>
+                <p class="text-white text-1xl mt-5 w-full text-center md:mr-12 lg:mr-12 md:mx-4 lg:mx-4">Dekingsmart construction company is
+                    renowned as
+                    one of the leading construction firms in Nigeria, with a strong
+                    reputation for delivering high-quality projects across various sectors. It has steadily grown into a
+                    prominent player in the Nigerian construction industry. Today, we offer a
+                    wide variety of services including civil engineering, construction management, design-build, and
+                    project management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-blue-900">
+        <div class="h-full flow-root">
+            <p class="py-6 text-center text-4xl text-white font-bold">Contact Us</p>
+            <p class="text-center py-4 text-white text-3xl font-semibold">Form</p>
+            <div class="mx-auto mb-12 bg-white w-full p-10 md:w-1/2 lg:w-1/2">
+                <div class="flex p-7">
+                    <p class="text-2xl mr-2">Name  </p>
+                    <input type="text" placeholder="" class="w-full outline outline-1 outline-offset-1">
+                </div>
+                <div class="flex p-7">
+                    <p class="text-2xl mr-2">Email</p>
+                    <input type="email" placeholder="" class="w-full outline-1 outline outline-offset-1">
+                </div>
+                <div class="flex p-7">
+                    <p class="text-2xl mr-2">Message  </p>
+                    <input type="text" placeholder="" class="w-full h-28 outline outline-1 outline-offset-1">
+                </div>
+            </div>
+            <div class="col-span-2 text-center mb-8">
+                <button class=" text-white text-1xl bg-blue-600 cursor-pointer rounded-md p-2">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-current h-full">
+        <div class="flex justify-center space-x-5 py-10 md:space-x-10 lg:space-x-10">
+            <div class="text-3xl text-white hover:bg-teal-700">
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div class="text-3xl text-white hover:bg-teal-700"> <i class="fa-brands fa-square-whatsapp"></i></div>
+            <div class="text-3xl text-white hover:bg-teal-700"> <i class="fa-brands fa-instagram"></i></div>
+            <div class="text-3xl text-white hover:bg-teal-700"> <i class="fa-brands fa-square-x-twitter"></i></div>
+            <div class="text-3xl text-white hover:bg-teal-700"> <i class="fa-brands fa-telegram"></i></div>
+        </div>
+        <div class="pb-12">
+            <p class="italic col-span-2 mx-5 text-xl text-center text-white">All right reserved by Egwu kingsley @kingsmart</p>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
